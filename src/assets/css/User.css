@@ -1,0 +1,83 @@
+
+  
+    
+
+  /**UserDashboard and update user css***/
+
+  .UserContainer{
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 5%;
+  
+    }
+    .UserForm {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      width: 100%;
+      
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background: rgb(240,240,240);
+      background: linear-gradient(175deg, rgba(240,240,240,1) 17%, rgba(250,220,202,1) 56%);
+      
+    }
+    .formData  {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border-radius: 4px;
+      box-sizing: border-box;
+      display: flex; 
+      flex-direction: column !important;
+    }
+    .formData label{
+      text-transform: uppercase;
+      color: black;
+      width: 100%;
+      padding: 1%;
+      margin: 0.5%;
+    }
+    .formData select  {
+      width: 100%;
+      padding: 1%;
+      margin: 0.5%;
+    }
+    .formData input  {
+      width: 100% !important;
+      padding: 1%;
+      margin: 0.5%;
+    }
+   
+   
+    .UserSubmit input{
+      background: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%);
+      margin: 3%;
+      width: 95%;
+      height: 60px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;            
+      box-shadow: 0 0 20px #eee;
+      border-radius: 10px;
+      display: block;
+      border: transparent;
+    }
+    .UserSubmit input:hover {
+      background-position: right center; 
+      color: #fff;
+      text-decoration: none;
+    }
+  
+  
+    
+    
+   
+   
+  
+    
+   
+   
+  

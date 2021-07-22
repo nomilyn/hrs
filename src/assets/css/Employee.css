@@ -1,0 +1,189 @@
+
+.EmployeeLogout{
+  height: 30px;
+  text-align: right;
+  right: 40px;
+  position: fixed;
+}
+
+
+
+
+/**EMPLOYEE PAGE*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 60%;
+  padding-top: 3%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height:500px;
+  text-align: center;
+  font-family: arial;
+  background: rgb(240,240,240);
+  background: linear-gradient(175deg, rgba(240,240,240,1) 17%, rgba(250,220,202,1) 56%);
+
+}
+
+.employee-btn {
+    background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%);
+    margin: auto;
+    margin-top: 3%;
+    padding: 15px 45px;
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    
+  }
+ 
+  .employee-btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  /**MANAGE ROOM**/
+
+  .ManageRoom{
+    width: 100%;
+    height: 100%;
+    padding-top: 3%;
+    margin: auto;
+    height:500px;
+    text-align: center;
+    font-family: arial;
+    background: rgb(240,240,240);
+    background: linear-gradient(175deg, rgba(240,240,240,1) 17%, rgba(250,220,202,1) 56%);
+  }
+
+  .addRoom-btn{
+    background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%);
+    margin: 7px;
+    padding: 10px;
+    font-size: small;
+    width: 11%;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+
+  }
+  .addRoom-btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #title {
+    text-align: center;
+    font-family: arial, sans-serif;
+  }
+  
+  #rooms {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+  }
+  
+  #rooms td, #rooms th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+ 
+  #rooms tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #rooms tr:hover {background-color: #ddd;}
+  
+  #rooms th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background: rgb(3,37,65);
+    color: white;
+  }
+  
+ .operation button, .operation a {
+    border: none;
+    margin-right: 20px;
+    outline: none;
+    font-size: 11px;
+    font-family: "Quicksand", sans-serif;
+    color: #f44336;
+    padding: 3px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #f44336;
+    background-color: transparent;
+  }
+  
+   #rooms button:active {
+    border: 1px solid blue;
+  }
+
+  /**addRoom***/
+
+  .addRoomContainer{
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 5%;
+
+  }
+  .AddRoom {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 800px;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: rgb(240,240,240);
+    background: linear-gradient(175deg, rgba(240,240,240,1) 17%, rgba(250,220,202,1) 56%);
+  }
+  .inputs input,select{
+    width: 750px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .radioButton,input{
+    margin-left: 7px;
+  }
+  .addSubmit input{
+    background: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%);
+    margin: 1%;
+    padding: 10px 45px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+   transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border: transparent;
+  }
+  .addSubmit input:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
